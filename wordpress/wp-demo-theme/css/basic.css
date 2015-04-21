@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 8, 2015, 9:45:31 AM
+    Author     : lenovo
+*/
+
+
+.navbar-static-top {
+  margin-bottom: 19px;
+  background:url(image/top_bg.png) no-repeat top;
+  height:100px;
+}
+ 
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height:350px;
+  margin-bottom: 60px;
+  margin-top:10px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 350px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 350px;
+}
+ /* Jumpbotron
+ ------------------------------------------------------------------------------*/
+ .jumbotron{ 
+    background:url(image/findrestro_bg.png) no-repeat top;
+  height:100px;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding:0px;}
+  
+  
+  /*Project css
+  ------------------------------------------------------------------------------*/
+    .caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+/*-----------------------------linl----------------------------------------*/
+  .link > ul{
+	  list-style-type:none;
+	  margin:0px;
+	  padding:0px;}
+	  .link > ul li{
+		  margin:5px;
+				text-align:right;
+				color:#FFF;
+				position:relative;
+		}
+		.link > ul li:hover{
+                display: block;
+            }
+			.link > ul li a{
+				color:#FFF;}
+	.link >  ul li a:link{
+                padding: 5px 0px 5px 0px;
+                color:#00F;
+                text-transform: uppercase;
+                text-decoration: none;
+            }	
+   .link > ul li a:hover{
+	   color:#E1E1E1;
+	   opacity:1;}
